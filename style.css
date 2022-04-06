@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: var(--color-very-pale-blue);
+  background-color: var(--color-pale-blue);
   background-image: url("./images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   /* background-position: bottom; */
@@ -34,20 +34,20 @@ body {
 
 .container {
   max-width: 50vh;
-  /* min-height: 80vh; */
+  min-height: 70vh;
   margin-top: auto;
   margin-bottom: auto;
   border-radius: 20px;
 
   background-color: #fff;
-  box-shadow: 5px 15px 15px var(--color-pale-blue);
+  box-shadow: 5px 15px 40px hsl(224, 82%, 82%);
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .hero img {
@@ -82,7 +82,7 @@ body {
 }
 
 .subscription {
-  /* margin: 5px 0; */
+  margin: 5px 0;
   background-color: var(--color-very-pale-blue);
 
   width: 80%;
